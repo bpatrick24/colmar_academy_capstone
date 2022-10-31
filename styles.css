@@ -10,3 +10,47 @@ ul{
   width: 40vw;
   justify-content: space-evenly;
 }
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: lightgray;
+  height: 50vw;
+  border: 1px solid rgba(0, 0, 0, 0.418);
+}
+
+.study_img {
+  height: 100%;
+  width: 100%;
+}
+
+.banner_img {
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+
+.banner_txt {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner_txt h1 {
+  font-size: 2rem;
+  color: rgb(78, 78, 78);
+  text-align: center;
+  word-break: break-word;
+}
+
+.banner_txt p {
+  text-align: center;
+}
+
+button {
+  box-sizing: border-box;
+  height: 2.125rem;
+  border: none;
+  background-color: rgb(78, 78, 78);
+  color: white;
+}
